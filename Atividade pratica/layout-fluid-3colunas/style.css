@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.coluna {
+    flex: 1; /* Fluid */
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
