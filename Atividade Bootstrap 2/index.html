@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo 2D - Site</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Jogo 2D</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jogabilidade">Jogabilidade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="container mt-5">
+        <h2>Bem-vindo ao Jogo 2D!</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do jogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogue Agora!</h5>
+                        <p class="card-text">Experimente nosso jogo 2D com gráficos incríveis e desafios emocionantes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do jogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Gráficos Incríveis</h5>
+                        <p class="card-text">Viva uma experiência visual única com os gráficos de última geração.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do jogo">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafios</h5>
+                        <p class="card-text">Aceite os desafios, vença os inimigos e domine o jogo!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabela com informações do jogo -->
+    <section id="sobre" class="container mt-5">
+        <h2>Sobre o Jogo</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Características</th>
+                    <th scope="col">Detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gênero</td>
+                    <td>Aventura 2D</td>
+                </tr>
+                <tr>
+                    <td>Plataforma</td>
+                    <td>PC</td>
+                </tr>
+                <tr>
+                    <td>Data de Lançamento</td>
+                    <td>EM BREVE</td>
+                </tr>
+                <tr>
+                    <td>Desenvolvedor</td>
+                    <td>Estúdio 2D Games</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="container mt-5">
+        <h2>Entre em Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
